@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hre.mines.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/t4"
+            app:srcCompat="@drawable/lol"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="16dp" android:contentDescription="TODO"/>
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t21"
+            android:layout_alignStart="@+id/t17"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t21"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/t16"
+            android:layout_marginTop="25dp"
+            android:layout_toStartOf="@+id/t2"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t22"
+            android:layout_alignStart="@+id/t18"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t23"
+            android:layout_alignStart="@+id/t19"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t17"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t16"
+            android:layout_toStartOf="@+id/t3"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t16"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/t11"
+            android:layout_marginTop="25dp"
+            android:layout_toStartOf="@+id/t2"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t17"
+            android:layout_toStartOf="@+id/t4"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t19"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t18"
+            android:layout_alignStart="@+id/t14"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t19"
+            android:layout_alignStart="@+id/t15"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t1"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/t1"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t2"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/t2"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t3"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/t3"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/t1"
+            android:layout_below="@+id/t1"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t11"
+            android:layout_alignStart="@+id/t7"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/t6"
+            android:layout_marginTop="25dp"
+            android:layout_toStartOf="@+id/t2"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t12"
+            android:layout_alignStart="@+id/t8"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t13"
+            android:layout_alignStart="@+id/t9"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t25"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t24"
+            android:layout_alignStart="@+id/t5"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t7"
+            android:layout_alignStart="@+id/t3"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t6"
+            android:layout_alignStart="@+id/t2"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t8"
+            android:layout_alignStart="@+id/t4"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t9"
+            android:layout_alignStart="@+id/t15"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/t15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/t14"
+            android:layout_alignStart="@+id/t25"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="P"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
